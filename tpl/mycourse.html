@@ -30,9 +30,11 @@
     </div>
 
 
-    <div class="col-md-12" id="class details" style="position: relative;
-margin:0 auto;
-line-height: 1.4em;">
+    <div class="col-md-12" id="class details" style="position: relative;margin:0 auto;line-height: 1.4em;">
+
+        <a href="mycourses_details.html">
+
+        <div id="click">
 
         <div id="date" style="padding: 2%; display:inline; margin-left: 10%; position: relative" >
 
@@ -48,7 +50,7 @@ line-height: 1.4em;">
 
             <div id="square">
 
-                <h5 style="border-radius:8px; background-color:#EEEEEE; width: 150px; padding:5px; margin-top:5% ">Computer
+                <h5 id="subject"">Computer
                     science</h5>
 
             </div>
@@ -58,12 +60,22 @@ line-height: 1.4em;">
             <hr style="width:100% ">
 
         </div>
+        </div>
 
-
+        </a>
     </div>
 
 
 </div>
+
+<script>
+
+    $(".click").click(function() {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+
+</script>
 
 </body>
 </html>
