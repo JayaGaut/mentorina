@@ -1,0 +1,115 @@
+.login-box{
+    width:70%;
+    height:310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 155PX;
+    margin-left: -35%;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+
+
+}
+
+.form-control{
+    display: block;
+    width: 98%;
+    height: 28px;
+    font-size: 13px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    /*margin-left: 12px;*/
+    border: 1px solid #666666;
+    border-radius: 4px;
+}
+
+.floating_icon {
+    display: inline;
+    float: right;
+    height: 60%;
+    width: 8%;
+
+}
+
+.profile {
+    display: inline;
+    height: 60%;
+    width: 8%;
+    float: left;
+}
+
+.img_profile {
+    margin: 0 0 20px 0;
+    width: 80px;
+    height: 80px;
+}
+
+.fa-map-marker-profile {
+    color: #2b7dbc !important;
+    padding:0 !important;
+    width:15px !important;
+}
+
+.edit-profile {
+    margin: 20px 0 0 0;
+    width: 160px;
+    border-radius: 8px;
+    text-shadow: none;
+    border-style: hidden;
+    height: 25px;
+}
+
+.logo {
+    display: inline;
+    height: 60%;
+    width: 8%;
+    margin-left: 35%;
+    horiz-align: center;
+    position: relative;
+}
+
+.fa {
+    color: #E0E0E0;
+    padding: 8%;
+    width: 10%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.fa-users-profile {
+    color: #2b7dbc;
+    padding-bottom: 0 !important;
+}
+
+.fa-bell-o-profile {
+    color: #2b7dbc;
+    float: right;
+    padding-bottom: 0 !important;
+}
+
+#cont {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 40%;
+    height: 120px;
+}
+
