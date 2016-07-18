@@ -1,6 +1,6 @@
-.login-box{
-    width:70%;
-    height:310px;
+.login-box {
+    width: 70%;
+    height: 310px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,22 +9,21 @@
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.3);
     -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright:5px;
-    -moz-border-radius-bottomleft:5px;
-    -moz-border-radius-bottomright:5px;
-    -webkit-border-top-left-radius:5px;
-    -webkit-border-top-right-radius:5px;
-    -webkit-border-bottom-left-radius:5px;
-    -webkit-border-bottom-right-radius:5px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
-
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 }
 
-.form-control{
+.form-control {
     display: block;
     width: 98%;
     height: 28px;
@@ -61,8 +60,8 @@
 
 .fa-map-marker-profile {
     color: #2b7dbc !important;
-    padding:0 !important;
-    width:15px !important;
+    padding: 0 !important;
+    width: 15px !important;
 }
 
 .edit-profile {
@@ -113,20 +112,74 @@
     height: 120px;
 }
 
+.nav-tabs {
+    border-bottom: 2px solid #DDD;
+}
 
-.nav-tabs { border-bottom: 2px solid #DDD; }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
-.nav-tabs > li > a { border: none; color: #666; }
-.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
-.nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
-.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
-.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
-.tab-pane { padding: 15px 0; }
-.tab-content{padding:20px}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border-width: 0;
+}
 
-.date{
+.nav-tabs > li > a {
+    border: none;
+    color: #666;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+    border: none;
+    color: #4285F4 !important;
+    background: transparent;
+}
+
+.nav-tabs > li > a::after {
+    content: "";
+    background: #4285F4;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+    transform: scale(1);
+}
+
+.tab-nav > li > a::after {
+    background: #21527d none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.tab-pane {
+    padding: 15px 0;
+}
+
+.tab-content {
+    padding: 20px
+}
+
+.date {
     margin-top: 4.5%;
     padding: 3%;
     color: #134b6d;
+
+}
+
+#subject {
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    width: 150px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center
+
+}
+
+#course_details{
+
 
 }
