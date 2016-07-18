@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -16,18 +17,47 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card" style="padding: 10%; display: inline">
-                <ul class="nav nav-tabs" role="tablist" style="background-color:transparent; box-shadow: -2px -2px 2px #E0E0E0; ">
-                    <li role="presentation" class="active" style="width: 50%"><a href="#CURRENT" aria-controls="current" role="tab"
-                                                              data-toggle="tab">CURRENT</a></li>
+                <ul class="nav nav-tabs" role="tablist"
+                    style="background-color:transparent; box-shadow: -2px -2px 2px #E0E0E0; ">
+                    <li role="presentation" class="active" style="width: 50%"><a href="#CURRENT" aria-controls="current"
+                                                                                 role="tab"
+                                                                                 data-toggle="tab">CURRENT</a></li>
                     <li role="presentation" style="width: 50%"><a href="#PAST" aria-controls="PAST" role="tab"
-                                               data-toggle="tab">PAST</a></li>
+                                                                  data-toggle="tab">PAST</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="col-md-12" id="class details">
-        <h5 style="border-radius: 8px; background-color:#EEEEEE; width: 15%; padding: 1%; color:#134b6d">Computer science</h5>
+
+    <div class="col-md-12" id="class details" style="position: relative;
+margin:0 auto;
+line-height: 1.4em;">
+
+        <div id="date" style="padding: 2%; display:inline; margin-left: 10%; position: relative" >
+
+            <p class="date" id="End_date" style="float: right">End Date: <br>2016-06-30</p>
+            <p class="date" id="start_date" style="float: right">Start Date:<br>2016-06-30</p>
+
+
+            <i class="fa fa-calendar fa-2x" aria-hidden="true" style="float: right;color: #134b6d; " ;></i>
+
+        </div>
+
+        <div id="details" style="margin-right: 2%; display: inline; padding-right: 12%;position: relative">
+
+            <div id="square">
+
+                <h5 style="border-radius:8px; background-color:#EEEEEE; width: 150px; padding:5px; margin-top:5% ">Computer
+                    science</h5>
+
+            </div>
+
+            <p id="prof_name" style="color: #134b6d; margin-top: 3%">Professor: Joe Smith</p>
+
+            <hr style="width:100% ">
+
+        </div>
 
 
     </div>
