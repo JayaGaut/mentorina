@@ -88,6 +88,7 @@ label {
     display: inline;
     float: right;
     color: #E0E0E0;
+    margin-right: 8%;
 
 }
 
@@ -95,6 +96,7 @@ label {
     display: inline;
     height: 60%;
     width: 8%;
+    margin-left: 8%;
     float: left;
     color: #4285F4;
 }
@@ -107,13 +109,12 @@ label {
     position: relative;
     height: 20px;
     padding: 2%;
-    color: #eeeeee;
-    box-shadow: #eeeeee -2px -3px 4px;
+   box-shadow: #eeeeee -2px -3px 4px;
 }
 
 .fo_icon {
 
-    color: #eeeeee;
+    color: #BDBDBD;
     width: 18.3%;
     float: left;
     padding: 0;
@@ -146,7 +147,7 @@ label {
     display: inline;
     height: 40px;
     width: 50px;
-    margin-left: 35%;
+    margin-left: 25%;
     horiz-align: center;
     position: relative;
 }
