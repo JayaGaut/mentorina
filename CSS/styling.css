@@ -1,28 +1,73 @@
+.main-box {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    background: url("../img/background-full.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .login-box{
     width:70%;
-    height:310px;
+    height:250px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 155PX;
+    /*margin-top: 200PX;*/
     margin-left: -35%;
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.3);
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright:5px;
-    -moz-border-radius-bottomleft:5px;
-    -moz-border-radius-bottomright:5px;
-    -webkit-border-top-left-radius:5px;
-    -webkit-border-top-right-radius:5px;
-    -webkit-border-bottom-left-radius:5px;
-    -webkit-border-bottom-right-radius:5px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
-
-
+   /*-moz-border-radius-topleft: 5px;*/
+   /*-moz-border-radius-topright:5px;*/
+   /*-moz-border-radius-bottomleft:5px;*/
+   /*-moz-border-radius-bottomright:5px;*/
+   /*-webkit-border-top-left-radius:5px;*/
+   /*-webkit-border-top-right-radius:5px;*/
+   /*-webkit-border-bottom-left-radius:5px;*/
+    /*-webkit-border-bottom-right-radius:5px;*/
+   /*border-top-left-radius:5px;*/
+   /*border-top-right-radius:5px;*/ /*border-bottom-left-radius:5px;*/
+  /*border-bottom-right-radius:5px;*/
 }
+
+.input-chechbox {
+    float: left;
+    margin-right: 6px !important;
+    height: 17px !important;
+    width: 17px !important;
+}
+
+.btn-signIn {
+     display: block;
+     width: 100%;
+     height: 40px;
+     font-size: 18px;
+     /* margin-left: 16px; */
+ }
+
+.checkbox{
+    color:#FFF;
+ }
+
+.left-checkbox{
+     float: right;
+     margin-top: 36px;
+     margin-right: -52px;
+ }
+
+.logopanel {
+    padding: 13px 10px;
+     background: #fff;
+     text-align: center;
+ }
+
+label {
+     font-size: 12px;
+     font-weight: normal;
+     line-height: 28px;
+ }
 
 .form-control{
     display: block;
