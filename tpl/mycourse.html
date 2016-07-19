@@ -34,43 +34,31 @@
 
         <a href="mycourses_details.html">
 
-        <div id="click">
-
-        <div id="date" style="padding: 2%; display:inline; margin-left: 10%; position: relative" >
-
-            <p class="date" id="End_date" style="float: right">End Date: <br>2016-06-30</p>
-            <p class="date" id="start_date" style="float: right">Start Date:<br>2016-06-30</p>
-
-
-            <i class="fa fa-calendar fa-2x" aria-hidden="true" style="float: right;color: #134b6d; " ;></i>
-
-        </div>
-
-        <div id="details" style="margin-right: 2%; display: inline; padding-right: 12%;position: relative">
-
-            <div id="square">
-
-                <h5 id="subject"">Computer
-                    science</h5>
-
-            </div>
-
-            <p id="prof_name" style="color: #134b6d; margin-top: 3%">Professor: Joe Smith</p>
-
-            <hr style="width:100% ">
-
-        </div>
-        </div>
 
         </a>
     </div>
+
+    </a>
+</div>
+
+<ul id="list">
+
+    <li class="listing"><span class="span">Start Date:<br>2016-06-30</span></li>
+    <li class="listing"><span class="span">End Date: <br>2016-06-30</span></li>
+    <li class="listing"><span class="span"><i class="fa fa-calendar fa-2x" aria-hidden="true"
+                                             style="color: #134b6d;"></i></span></li>
+    <li class="course"><span id="subject">Computer Science</span></li>
+    <li class=" prof "><span>Professor: Joe Smith</span></li>
+
+
+</ul><hr style="margin-top:200px">
 
 
 </div>
 
 <script>
 
-    $(".click").click(function() {
+    $(".click").click(function () {
         window.location = $(this).find("a").attr("href");
         return false;
     });

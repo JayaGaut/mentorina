@@ -37,20 +37,31 @@
     border-radius: 4px;
 }
 
-.floating_icon {
+#floating_icon {
     display: inline;
     float: right;
-    height: 60%;
-    width: 8%;
+    color: #E0E0E0;
 
 }
 
-.profile {
+#profile {
     display: inline;
     height: 60%;
     width: 8%;
     float: left;
+    color: #4285F4;
 }
+
+#footer {
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding: 4%;
+    height: 30px;
+    box-shadow: #eeeeee -2px -3px 4px;
+}
+
+
 
 .img_profile {
     margin: 0 0 20px 0;
@@ -75,20 +86,23 @@
 
 .logo {
     display: inline;
-    height: 60%;
-    width: 8%;
+    height: 40px;
+    width: 50px;
     margin-left: 35%;
     horiz-align: center;
     position: relative;
 }
 
-.fa {
-    color: #E0E0E0;
-    padding: 8%;
-    width: 10%;
-    position: relative;
-    display: inline-block;
+.flex-rectangle {
+    width: 100%;
+    height: 50px;
+    background-color: #134b6d;
+}
 
+.flex-rectangle:before {
+    content: "";
+    display: block;
+    padding-top: 25%;
 }
 
 .fa-users-profile {
@@ -160,26 +174,66 @@
     padding: 20px
 }
 
-.date {
-    margin-top: 4.5%;
-    padding: 3%;
-    color: #134b6d;
-
+ul {
+    list-style-type: none;
 }
 
 #subject {
     border-radius: 8px;
     background-color: #EEEEEE;
-    width: 150px;
-    padding: 5px;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center
+    text-align: center;
+    position: fixed;
+    width: 130px;
+    padding: 0.5%;
 
 }
 
-#course_details{
+#list {
+    position: fixed;
+    width: 100%;
+    display: block;
+    padding: 4%;
+    color: #134b6d;
+    position: fixed;
+    font-size: 2vmin;
+}
 
+.listing {
+    color: #134b6d;
+    width: 13.3%;
+    float: right;
+    padding: 0;
+    margin: 0;
 
 }
+
+.prof {
+    color: #134b6d;
+    width: 40.3%;
+    float: left;
+    padding: 0%;
+    margin-top: 9%;
+}
+
+.class {
+    color: #134b6d;
+    width: 23.3%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.listing > span {
+    margin: 2% 5% 0 0; /* now margins are specified relative to outer <li> width */
+    display: block;
+}
+
+.prof > span {
+    margin: 2% 5% 0% 0%; /* now margins are specified relative to outer <li> width */
+    display: block;
+}
+
+#course_details {
+
+}
+
