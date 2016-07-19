@@ -1,4 +1,6 @@
-
+.content {
+    margin-top: -24px;
+}
 .main-box {
     min-height: 100%;
     min-width: 100%;
@@ -179,6 +181,7 @@ label {
     padding-bottom: 0 !important;
     position: relative;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .fa-bell-o-profile {
