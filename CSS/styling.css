@@ -108,7 +108,7 @@ label {
     position: relative;
     height: 20px;
     padding: 2%;
-   box-shadow: #eeeeee -2px -3px 4px;
+    box-shadow: #eeeeee -2px -3px 4px;
 }
 
 .fo_icon {
@@ -175,13 +175,11 @@ label {
 }
 
 #cont {
-    display: inline;
-    justify-content: center;
+    display: block;
     align-items: center;
-    position: relative;
+    position: absolute;
     bottom: 0;
-    width: 40%;
-    height: 120px;
+
 }
 
 .nav-tabs {
