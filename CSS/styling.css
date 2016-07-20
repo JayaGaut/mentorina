@@ -156,11 +156,8 @@ label {
 
 .logo {
     display: inline;
-    height: 40px;
-    width: 50px;
-    margin-left: 25%;
-    horiz-align: center;
-    position: relative;
+  margin-bottom: 13px;
+    margin-left: 30%;
 }
 
 /*.fa {*/
