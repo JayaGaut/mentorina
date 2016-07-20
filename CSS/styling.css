@@ -194,6 +194,8 @@ label {
     display: block;
     align-items: center;
     position: absolute;
+    width: 100%;
+    padding: 30px;
     bottom: 0;
 
 }
