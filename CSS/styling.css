@@ -275,12 +275,17 @@ ul {
 }
 
 #subject {
+    float: left;
     border-radius: 8px;
     background-color: #EEEEEE;
+    color: #134b6d;
+    width: 120px;
+    height: 6%;
     text-align: center;
+    padding: 0.5px;
     position: fixed;
-    width: 130px;
-    padding: 0.5%;
+    margin-top: 2%;
+    margin-left: 15px;
 
 }
 
@@ -340,13 +345,3 @@ ul {
     display: block;
 }
 
-#course_details {
-
-}
-
-.date {
-    margin-top: 4.5%;
-    padding: 3%;
-    color: #134b6d;
-
-}
