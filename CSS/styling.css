@@ -4,10 +4,11 @@
 }
 
 .mentorina {
-    font-size:16px;
+    font-size: 16px;
     font-weight: bold;
     color: #337ab7;
 }
+
 .content {
     margin-top: -24px;
 }
@@ -21,7 +22,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 
 }
 
@@ -127,7 +127,6 @@ label {
     position: relative;
     height: 20px;
     padding: 2%;
-
 
 }
 
@@ -283,6 +282,18 @@ ul {
     width: 130px;
     padding: 0.5%;
 
+}
+
+#subject2 {
+    display: block;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+    color: #134b6d;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    padding: 0.2%;
 }
 
 #list {
