@@ -3,6 +3,11 @@
     border-radius: 0 !important;
 }
 
+.mentorina {
+    font-size:16px;
+    font-weight: bold;
+    color: #337ab7;
+}
 .content {
     margin-top: -24px;
 }
@@ -141,7 +146,7 @@ label {
 }
 
 .fa-map-marker-profile {
-    color: #2b7dbc !important;
+    color: #4285F4 !important;
     padding: 0 !important;
     width: 15px !important;
 }
@@ -157,8 +162,8 @@ label {
 
 .logo {
     display: inline;
-  margin-bottom: 13px;
-    margin-left: 30%;
+    margin-bottom: 13px;
+    margin-right: 8%;
 }
 
 /*.fa {*/
@@ -183,7 +188,7 @@ label {
 }
 
 .fa-users-profile {
-    color: #2b7dbc;
+    color: #4285F4;
     width: 10%;
     padding-bottom: 0 !important;
     position: relative;
@@ -192,7 +197,7 @@ label {
 }
 
 .fa-bell-o-profile {
-    color: #2b7dbc;
+    color: #4285F4;
     float: right;
     width: 10%;
     padding-bottom: 0 !important;
