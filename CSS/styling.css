@@ -120,7 +120,8 @@ label {
     position: relative;
     height: 20px;
     padding: 2%;
-    box-shadow: #eeeeee -2px -3px 4px;
+
+
 }
 
 .fo_icon {
@@ -205,9 +206,11 @@ label {
 #cont {
     display: block;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    /*padding: 30px;*/
     bottom: 0;
+    border-top: solid #eeeeee;
 
 }
 
