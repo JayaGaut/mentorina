@@ -6,6 +6,7 @@
 .content {
     margin-top: -24px;
 }
+
 .main-box {
     min-height: 100%;
     min-width: 100%;
@@ -17,10 +18,10 @@
     background-size: cover;
 }
 
-.login-box{
+.login-box {
     /*width:70%;*/
     width: 90%;
-    height:250px;
+    height: 250px;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -58,11 +59,11 @@
     /* margin-left: 16px; */
 }
 
-.checkbox{
-    color:#FFF;
+.checkbox {
+    color: #FFF;
 }
 
-.left-checkbox{
+.left-checkbox {
     float: right;
     margin-top: 36px;
     margin-right: -52px;
@@ -80,7 +81,7 @@ label {
     line-height: 28px;
 }
 
-.form-control{
+.form-control {
     display: block;
     width: 98%;
     height: 28px;
@@ -140,8 +141,8 @@ label {
 
 .fa-map-marker-profile {
     color: #2b7dbc !important;
-    padding:0 !important;
-    width:15px !important;
+    padding: 0 !important;
+    width: 15px !important;
 }
 
 .edit-profile {
@@ -206,7 +207,6 @@ label {
     align-items: center;
     position: absolute;
     width: 100%;
-    padding: 30px;
     bottom: 0;
 
 }
@@ -275,10 +275,6 @@ ul {
     position: fixed;
     width: 130px;
     padding: 0.5%;
-
-
-
-
 
 }
 
