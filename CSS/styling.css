@@ -9,8 +9,9 @@
     color: #337ab7;
 }
 
-.content {
-    margin-top: -24px;
+.jumbotron {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .main-box {
@@ -119,6 +120,10 @@ label {
     color: #4285F4;
 }
 
+#profile-container {
+    margin-top: 25px;
+}
+
 .footer {
 
     background-color: white;
@@ -183,11 +188,21 @@ label {
 }
 
 .flex-rectangle:before {
-    content: "";
+    /*content: "";*/
     display: inline-block;
     padding-top: 25%;
 }
 
+.flex-rectangle span {
+    height: 50px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0.5em;
+    font-size: 20px;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 .fa-users-profile {
     color: #4285F4;
     width: 10%;
@@ -299,6 +314,7 @@ ul {
     margin-right: auto;
     width: 130px;
     padding: 0.2%;
+    margin-bottom: 15px;
 }
 
 #list {
@@ -344,4 +360,5 @@ ul {
     margin: 2% 5% 0% 0%; /* now margins are specified relative to outer <li> width */
     display: block;
 }
+
 
