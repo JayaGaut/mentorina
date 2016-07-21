@@ -12,6 +12,9 @@
 .jumbotron {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+    width: 100%;
 }
 
 .main-box {
@@ -203,6 +206,7 @@ label {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 .fa-users-profile {
     color: #4285F4;
     width: 10%;
@@ -294,11 +298,11 @@ ul {
     border-radius: 8px;
     background-color: #EEEEEE;
     color: #134b6d;
-    width: 120px;
-    height: 6%;
+    width: 110px;
+    height: 3.5%;
     text-align: center;
-    padding: 0.5px;
     position: fixed;
+    font-size: 12px;
     margin-top: 2%;
     margin-left: 10px;
 
