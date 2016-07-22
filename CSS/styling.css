@@ -298,9 +298,8 @@ ul {
     border-radius: 8px;
     background-color: #EEEEEE;
     color: #134b6d;
-    width: 110px;
-    height: 3.5%;
-    text-align: center;
+    width: 130px;
+    padding: 5px;
     position: fixed;
     font-size: 12px;
     margin-top: 2%;
