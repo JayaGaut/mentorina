@@ -380,14 +380,6 @@ ul {
     display: block;
 }
 
-/* DEMO STYLES */
-body {
-    max-width: 300px;
-    margin: 1em auto;
-    background: #db3a3d;
-    text-align:center;
-}
-
 
 /* PROGRESS CIRCLE COMPONENT */
 .circliful {
