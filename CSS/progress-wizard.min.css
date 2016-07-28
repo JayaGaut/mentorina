@@ -25,7 +25,7 @@
 }
 
 .progress-indicator {
-    margin: 0 0 1em;
+    margin: 0 0 3em;
     padding: 0;
     font-size: 80%;
     text-transform: uppercase
@@ -35,8 +35,8 @@
     list-style: none;
     text-align: center;
     width: auto;
-    padding: 0;
-    margin: 0;
+    padding: 40px;
+    margin: 0%;
     position: relative;
     text-overflow: ellipsis;
     color: #bbb;
@@ -73,7 +73,7 @@
 
 .progress-indicator > li.completed .bubble, .progress-indicator > li.completed .bubble:after, .progress-indicator > li.completed .bubble:before {
     background-color: #4285F4;
-    border-color:  #4285F4;
+    border-color: #4285F4;
 }
 
 .progress-indicator > li .bubble:before {
@@ -158,9 +158,9 @@
     top: 0;
     margin-left: 60% !important;
     width: 45% !important;
-    display: inline-block;
+    display: block;
     text-align: left;
-    line-height: 1.2em
+    line-height: 1em
 }
 
 .progress-indicator.stacked > li a {
@@ -186,4 +186,14 @@
     .progress-indicator {
         font-size: 60%
     }
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    margin-top: -100px;
+    border-style: solid;
+    border-width: 24px 16px 0 16px;
+    border-color: #007bff transparent transparent transparent;
+
 }
