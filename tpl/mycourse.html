@@ -21,7 +21,10 @@
 
         <script>
 
-            <false% _.each( this.courses, function(course,i) {course %i>false
+//            <% _.each( this.courses, function(course,i) { %i>
+$('div').each(function (course, value) {
+    console.log('div' + course + ':' + $(this).attr('id'));
+});
 
         </script>
 
@@ -49,9 +52,9 @@
                 <hr style="width:100% ">
             </a>
         </li>
-        <script>
-            <% });%>
-        </script>
+
+
+
     </ul>
 
 
