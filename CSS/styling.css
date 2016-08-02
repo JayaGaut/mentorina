@@ -25,6 +25,7 @@
 #logo-container {
     margin-top: -125px;
 }
+
 .jumbotron {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
@@ -317,7 +318,7 @@ HEAD
     padding: 20px
 }
 
-#header2{
+#header2 {
 
     position: fixed;
     top: 0;
@@ -326,22 +327,20 @@ HEAD
     height: 60px;
 
 }
+
 ul {
     list-style-type: none;
 }
 
 #subject {
-    float: left;
+    display: inline-block;
     border-radius: 8px;
+    width: 130px;
     background-color: #EEEEEE;
     color: #134b6d;
-    height: 3.5%;
     text-align: center;
-    padding: 0.5px;
-    position: relative;
-    margin-top: 2%;
-    margin-left: 10px;
-
+    margin-top:20px;
+    margin-left: 20px;
 }
 
 #subject2 {
