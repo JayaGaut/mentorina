@@ -142,13 +142,16 @@ label {
 }
 
 .footer {
-
     background-color: white;
+    display: block;
+    align-items: center;
+    position: fixed;
     width: 100%;
-    text-align: center;
-    position: relative;
-    height: 20px;
-    padding: 2%;
+    margin-left: 0px;
+
+    /*padding: 30px;*/
+    bottom: 0;
+    border-top: solid #eeeeee;
 
 }
 
@@ -248,16 +251,18 @@ label {
     display: inline-block;
 }
 
-#cont {
-    display: block;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    /*padding: 30px;*/
-    bottom: 0;
-    border-top: solid #eeeeee;
+/*#cont {*/
+/*display: block;*/
+/*align-items: center;*/
+/*position: fixed;*/
+/*width: 120%;*/
+/*margin-left: 0px;*/
 
-}
+/*!*padding: 30px;*!*/
+/*bottom: 0;*/
+/*border-top: solid #eeeeee;*/
+
+/*}*/
 
 .nav-tabs {
     border-bottom: 2px solid #DDD;
