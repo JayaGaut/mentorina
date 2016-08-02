@@ -12,12 +12,19 @@
     visibility: visible;
 }
 
+.content {
+    margin-top: 125px;
+}
+
 .mentorina {
     font-size: 16px;
     font-weight: bold;
     color: #337ab7;
 }
 
+#logo-container {
+    margin-top: -125px;
+}
 .jumbotron {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
@@ -274,8 +281,8 @@ label {
 .nav-tabs > li > a::after {
     content: "";
     background: #4285F4;
-    height: 2px;
-    position: absolute;
+    height: 0px;
+    position: fixed;
     width: 100%;
     left: 0px;
     bottom: -1px;
@@ -304,7 +311,8 @@ HEAD
 .tab-content {
     padding: 20px
 }
-.header{
+
+#header2{
 
     position: fixed;
     top: 0;
