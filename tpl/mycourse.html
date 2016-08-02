@@ -28,18 +28,18 @@
 </div>
 <ul style="margin-top: 10px;">
 
-    <% _.each(courses, function(obj) { %>
+    <!--<% _.each(courses, function(obj) { %>-->
 
-    <% var courseName = '';
-    var section = '';
-    var outline = '';
+    <!--<% var courseName = '';-->
+    <!--var section = '';-->
+    <!--var outline = '';-->
 
-    for (i=0; i < obj.meta.length; i++) { %>
-    <% if( obj.meta[i].name == "name" ) { courseName = obj.meta[i].value; console.log(courseName); %>
-    <% } else if ( obj.meta[i].name == "section" ){ section = obj.meta[i].value; console.log(section);%>
-    <% } else if ( obj.meta[i].name == "outline" ){ outline = obj.meta[i].value; console.log(outline);%>
-    <% } %>
-    <% } %>
+    <!--for (i=0; i < obj.meta.length; i++) { %>-->
+    <!--<% if( obj.meta[i].name == "name" ) { courseName = obj.meta[i].value; console.log(courseName); %>-->
+    <!--<% } else if ( obj.meta[i].name == "section" ){ section = obj.meta[i].value; console.log(section);%>-->
+    <!--<% } else if ( obj.meta[i].name == "outline" ){ outline = obj.meta[i].value; console.log(outline);%>-->
+    <!--<% } %>-->
+    <!--<% } %>-->
 
     <li style="margin-left: -50px;">
         <a href="#course_detail/<%= courseName %>/<%= obj.teachers[0].meta_name%>/<%= section %>/<%= outline %>">
@@ -47,19 +47,19 @@
             <div class="card" style="height: 100px">
                 <div class="card-block" style="margin-top: 10px">
                     <p class="card-text" id="subject"
-                       style="text-align: center; color: #1f306e;margin-top: 15px"><%= courseName %><br> <span
-                            style="color: #4285F4; float: right; margin-top: 5%; font-size: 12px"><%= obj.teachers[0].meta_name%></span>
+                       style="text-align: center; color: #1f306e;margin-top: 15px"><br> <span
+                            style="color: #4285F4; float: right; margin-top: 5%; font-size: 12px"></span>
                     </p>
 
                     <br>
 
                     <p class="date" id="End_date"
                        style="color: #134b6d;float: right; font-size: 10px;padding: 1%;margin-right: 8px; ">
-                        End Date <br> <span style="color: #4285F4;"><%= obj.created_at %></span>
+                        End Date <br> <span style="color: #4285F4;"></span>
                     </p>
                     <p class="date" id="Start_date"
                        style="color: #134b6d;float: right; font-size: 10px;padding: 1%;margin-right: 8px; ">
-                        Start Date <br> <span style="color: #4285F4;"><%= obj.updated_at %></span>
+                        Start Date <br> <span style="color: #4285F4;"></span>
                     </p>
                     <i class="fa fa-calendar fa-2x" aria-hidden="true"
                        style="float: right;color: #134b6d;padding: 1%"></i>
