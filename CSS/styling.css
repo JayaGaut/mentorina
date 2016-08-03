@@ -339,9 +339,10 @@ ul {
     background-color: #EEEEEE;
     color: #134b6d;
     text-align: center;
-    margin-top:20px;
+    margin-top: 20px;
     margin-left: 20px;
 }
+
 
 #subject2 {
     display: block;
@@ -421,3 +422,13 @@ ul {
     margin-bottom: 15px;
 }
 
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    background: #134b6d;
+    border-radius: 15px;
+  }
