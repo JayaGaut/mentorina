@@ -12,25 +12,30 @@
 
 </head>
 <body>
-
-
 <div class="row" style="display: block;text-align: center ">
 
-
     <ul>
+        <% _.each(sessions, function(obj) { %>
+        <% var sessionName = '';
+
+        for (i=0; i < obj.meta.length; i++) { %>
+        <% if( obj.meta[i].name == "name" ) { sessionName = obj.meta[i].value; %>
+        <% } %>
+        <% } %>
         <li style="margin-left: -30px;">
             <div class="card"  style="height: 140px">
-                <a href="#">
+                <a href="#session_report_detail">
 
                     <div style="width: 80px;float: right; margin-right: 20px;margin-top: 10px">
 
                         <p class="date" id="Start_date"
-                           style="color: #BDBDBD; font-size: 10px;padding: 1% ">
-                            Start Date <br> <span style="color: #BDBDBD;">26-07-2016 </span>
+                           style="color: #BDBDBD; font-size: 10px;">
+                            Start Date <br> <span style="color: #BDBDBD;"><%=
+                        (obj.end_date.date).substring(0, 20) %> </span>
                         </p>
                         <p class="date" id="End_date"
-                           style="color: #BDBDBD; font-size: 10px;padding: 1%;; ">
-                            End Date <br> <span style="color: #BDBDBD;">26-07-2016</span><span style="color:darkorange; float: right;margin-top: 35px">VIEW REPORT</span>
+                           style="color: #BDBDBD; font-size: 10px; ">
+                            End Date <br> <span style="color: #BDBDBD;">26-07-2016</span><span style="color:darkorange; float: right;margin-top: 15px">VIEW REPORT</span>
 
                         </p>
                     </div>
@@ -41,12 +46,12 @@
 
 
                     <div id="subject" style="text-align: center; background-color: darkorange;color: white;float: left;
-"><p>Session 1 &nbsp </p></div>
+"><p><%= sessionName %> </p>         </div>
                     <br>
 
                     <p id="prof_name"
-                       style="color: #134b6d; float: left;  margin-left: -120px ;font-size: 12px; margin-top: 55px">
-                        Professor: Joe Smith <Br> <span style="color: #4285F4; margin-top: 55px">Software Enginnering</span></p>
+                       style="color: #134b6d; float: left;  font-size: 12px; margin-top: 55px;margin-left: -130px">
+                        Professor: <%= teacherName %> <Br> <span style="color: #4285F4; margin-top: 55px"><%= courseName %></span></p>
 
 
 
@@ -55,13 +60,11 @@
             </div>
 
         </li>
+        <% });%>
     </ul>
 
 
 </div>
-
-
-
 
 </body>
 </html>
