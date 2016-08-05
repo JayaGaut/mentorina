@@ -416,6 +416,7 @@ ul {
     color: #134b6d;
     text-align: center;
     margin-left: auto;
+    position: fixed;
     margin-right: auto;
     width: 150px;
     padding: 0.2%;
