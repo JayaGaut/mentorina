@@ -11,31 +11,45 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div>
+<div class="jumbotron" style="background-color: white">
 
-    <div class="jumbotron" style="background-color: white">
-        <div class="header" style="top: 0;">
 
-            <div style="text-align: center;">
-                <img class="logo" src="../img/Mentorina Logo2.png">
-                <a href="#profile">
-                    <i id="profile" class="fa fa-user fa-2x" aria-hidden="true"></i>
-                </a>
-                <i id="floating_icon" class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
+    <div style="text-align: center;">
+        <img class="logo" src="../img/Mentorina Logo2.png">
+        <a href="#profile">
+            <i id="profile" class="fa fa-user fa-2x" aria-hidden="true"></i>
+        </a>
+        <i id="floating_icon" class="fa fa-ellipsis-v fa-2x" aria-hidden="true" ></i>
 
-            </div>
 
-            <div class="flex-rectangle" style="">
-                <div style="text-align: center;">
-                    <i id="back_btn" class="fa fa-angle-left fa-2x back_btn visibility-hidden" aria-hidden="true"></i>
-                    <span style=""><%= utils.headerTitle %></span>
-                </div>
-            </div>
+
+    </div>
+
+    <div class="flex-rectangle" style="">
+        <div style="text-align: center;">
+            <i id="back_btn" class="fa fa-angle-left fa-2x back_btn visibility-hidden" aria-hidden="true"></i>
+            <span style=""><%= utils.headerTitle %></span>
         </div>
     </div>
 
+</div>
+
+
+<div id="card1" class="card" style="height: 200px;width: 130px;float: right;background-color: white;margin-top: -60px" hidden="hidden">
+    <div class="card-block">
+
+    </div>
+</div>
 
 </div>
 
-    </body>
-    </html>
+</body>
+
+<script>
+
+    $( "#floating_icon" ).click(function() {
+        $( "#card1" ).toggle();
+    });
+
+</script>
+</html>
