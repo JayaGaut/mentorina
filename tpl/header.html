@@ -11,37 +11,74 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="jumbotron" style="background-color: white">
+<div id="header2" style="margin-top: 30px">
 
-
-    <div style="text-align: center;">
-        <img class="logo" src="../img/Mentorina Logo2.png">
+    <div style="text-align: center;background-color: white">
+        <img class="logo" src="img/Mentorina Logo2.png">
         <a href="#profile">
             <i id="profile" class="fa fa-user fa-2x" aria-hidden="true"></i>
         </a>
-        <i id="floating_icon" class="fa fa-ellipsis-v fa-2x" aria-hidden="true" ></i>
-
-
+        <i id="floating_icon" class="fa fa-ellipsis-v fa-2x" aria-hidden="true"></i>
 
     </div>
 
     <div class="flex-rectangle" style="">
         <div style="text-align: center;">
-            <i id="back_btn" class="fa fa-angle-left fa-2x back_btn visibility-hidden" aria-hidden="true"></i>
+
             <span style=""><%= utils.headerTitle %></span>
         </div>
     </div>
 
-</div>
 
-
-<div id="card1" class="card" style="height: 100px;width: 130px;float: right;background-color: white;margin-top: -60px" hidden="hidden">
+<div id="card1" class="card" style="height: 100px;width: 130px;float: right;background-color: white;margin-top: -60px"
+     hidden="hidden">
     <div class="card-block">
         <p class="card-text" style="margin-left: 20px;margin-top:40px;color: #1f306e"> Logout</p>
 
     </div>
 </div>
 
+</div>
+
+<div class="container" id="profile-container">
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-12">
+            <i class="fa fa-users fa-2x fa-users-profile">
+
+                <svg width="50" height="50" style=" margin: -45px 60px 20px -15px">
+                    <circle cx="12" cy="12" r="12" fill="#0f487f" />
+                    <text x="4" y="15" font-family="sans-serif" font-size="10px" fill="white">200</text>
+                </svg>
+
+            </i>
+            <i class="fa fa-bell-o fa-2x fa-bell-o-profile">
+
+                <svg width="50" height="50" style=" margin: -145px 60px 19px -8px">
+                    <circle cx="12" cy="12" r="12" fill="#0f487f" />
+                    <text x="6" y="15" font-family="sans-serif" font-size="10px" fill="white">52</text>
+                </svg>
+            </i>
+        </div>
+    </div>
+    <div class="row" style="">
+        <div class="col-md-12">
+            <div style="text-align: center;">
+                <img class="img-circle img_profile" src="<%=urlAvatar%>" />
+                <br>
+                <span> <%= UserName %> </span>
+                <br>
+                <div style="margin: 5px 0 50px 0">
+                    <i class="fa fa-map-marker fa-2x fa-map-marker-profile"></i> <span> Montreal QC CA </span>
+                    <div>
+                        <button class="edit-profile"> Edit Profile </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 </div>
 
 </body>

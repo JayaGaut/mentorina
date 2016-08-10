@@ -433,3 +433,10 @@ ul {
     background: #134b6d;
     border-radius: 15px;
   }
+
+.truncate {
+    width: 150px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
