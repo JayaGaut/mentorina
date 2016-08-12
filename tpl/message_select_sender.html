@@ -48,8 +48,8 @@
 
     $('#checkbox').change(function () {
         if ($(this).is(":checked")) {
-
-            var txt = $(document.getElementById("user_name")).innerHTML="name";
+            var $input = $(this);
+            var txt = $(document.getElementById("user_name")).innerHTML = "name";
 
             $('#message').val(function (i, val) {
                 return val + txt;
@@ -59,6 +59,7 @@
 
             document.getElementById("message").innerHTML = "my content";
             var user_image = $("<image src='../img/DianaSiegler.jpg' id='image_script' class='img-circle'></image>").insertBefore("span");
+
         }
         if ($(this).is(":checked")) {
 
