@@ -3,6 +3,12 @@
     border-radius: 0 !important;
 }
 
+/*font classes*/
+
+.font-20px {
+    font-size: 20px !important;
+}
+
 /*visibility-classes*/
 .visibility-hidden {
     visibility: hidden;
@@ -205,17 +211,18 @@ label {
 .back {
     height: 47px;
     width: 50px;
-    margin-left: 8%;
+    margin-left: 9%;
     margin-top: -49px;
     position: relative;
 }
 
 .back_btn {
     float: left;
-    margin-left: 8%;
+    margin-left: 0%;
     margin-top: 10px;
     color: white;
     cursor: pointer;
+    position: fixed;
 }
 
 .flex-rectangle {
@@ -418,6 +425,7 @@ ul {
 }
 
 .subject2 {
+
     display: block;
     border-radius: 8px;
     background-color: #EEEEEE;
@@ -429,6 +437,13 @@ ul {
     padding: 0.2%;
     margin-bottom: 15px;
 }
+
+.stroke-settings {
+    stroke: darkorange;
+    stroke-width: 5;
+    stroke-dasharray: 251.2,0;
+}
+
 
 #image_script {
 
@@ -444,4 +459,24 @@ ul {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.delete {
+    float: right;
+    position: fixed;
+    margin-left: 81%;
+    margin-top: 8px;
+    color: white;
+    font-size: 24px !important;
+    cursor: pointer;
+    position: fixed;
+}
+
+#plus {
+    float: left;
+    /*margin-left: 11.5%;*/
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
 }
