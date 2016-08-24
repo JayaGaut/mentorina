@@ -360,8 +360,6 @@ ul {
     margin-left: 20px;
 }
 
-
-
 #recommendation {
     display: inline-block;
     border-radius: 8px;
@@ -457,9 +455,8 @@ ul {
 .stroke-settings {
     stroke: darkorange;
     stroke-width: 5;
-    stroke-dasharray: 251.2,0;
+    stroke-dasharray: 251.2, 0;
 }
-
 
 #image_script {
 
@@ -497,8 +494,31 @@ ul {
     position: fixed;
 }
 
-@media only screen and (max-width: 500px) {
-    .post_img {
-       width: 200px;
+#comment_bar {
+    float: left;
+    width: 50%;
+    font-size: 12.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: solid #F5F5F5 4px;
+    padding: 2px;
+
+}
+
+@media (max-width: 500px) {
+    #comment_image {
+        margin-left: -10px;
     }
+}
+
+#comment_list {
+
+    color: #007bff;
+    float: left;
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 2px;
+    background-color: #F5F5F5;
+    font-size: 12px;
 }

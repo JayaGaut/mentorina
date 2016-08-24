@@ -37,14 +37,39 @@
                                         style="color: #4285F4; margin-top: 2%">Read More</span></p>
                             <img class="post_img" src="../img/home-office-569153.jpg"
                                  style="width:90%;height: 200px;margin-left: auto;margin-right: auto;display: block;margin-top: -10px">
-                            <span style="color: #4285F4; float: left;margin-left: 10px;font-size: 10px">Comment</span>
-                            <span style="color: #4285F4; float: right;margin-right:10px;font-size: 10px">Save <i
+                            <span id="comment" style="color: #4285F4; float: left;margin-left: 10px;font-size: 10px;margin-top: 10px">Comment</span>
+                            <span style="color: #4285F4; float: right;margin-right:10px;font-size: 10px;margin-top: 10px">Save <i
                                     class="fa fa-star" aria-hidden="true" style="color: #BDBDBD;"></i></span>
 
 
                         </div>
+                        <div id="comment_log" style="display:none;margin-top: 30px;position:relative">
 
+                            <div class="col-md-6" style="position: fixed">
 
+                                <img id="comment_image" src="../img/DianaSiegler.jpg" class="img-circle" width="40"
+                                     height="36"
+                                     style="margin-top: 10px;float: left;">
+
+                                <input type="text" placeholder="Post Comment"
+                                       id="comment_bar">
+
+                            </div>
+
+                            <div style="margin-top: 20px;position: fixed">
+                                <ul>
+
+                                    <li>
+                                        <img src="../img/DianaSiegler.jpg" class="img-circle" width="40"
+                                             height="36"
+                                             style="margin-top: 40px;float: left;margin-left: -30px">
+                                        <p id="comment_list" style="margin-top: 50px"> User Name <span style="color: #757575">Comment</span></p>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -54,4 +79,10 @@
 </div>
 
 </body>
+
+<script>
+    $("#comment").click(function () {
+        $("#comment_log").toggle();
+    });
+</script>
 </html>
