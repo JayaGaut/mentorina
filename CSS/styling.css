@@ -360,6 +360,22 @@ ul {
     margin-left: 20px;
 }
 
+
+
+#recommendation {
+    display: inline-block;
+    border-radius: 8px;
+    width: 130px;
+    height: 20px;
+    padding: 4px;
+    font-size: 12px;
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
 #subject2 {
 
     border-radius: 8px;
@@ -479,4 +495,10 @@ ul {
     color: white;
     cursor: pointer;
     position: fixed;
+}
+
+@media only screen and (max-width: 500px) {
+    .post_img {
+       width: 200px;
+    }
 }
